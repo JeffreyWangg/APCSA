@@ -28,7 +28,6 @@ public class Book {
 
     //adds ratings
     public static void addRating(Book book1, Book book2, Book book3, Book book4) {
-        //variables that I use in the function because it got tedious to copy and paste them:
         //rating_ = randomized arrays of 3 ratings that I assign to the book objects
         int[] rating1 = randomize();
         int[] rating2 = randomize();

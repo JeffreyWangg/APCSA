@@ -15,11 +15,13 @@ public class Main {
         Book book3 = new Book("Author man", "The scary mouse", 3, temp);
         Book book4 = new Book("Lordof Theflies", "Jim Jom", "Comedy", 0, temp);
 
-        //this calls the big one
+        //calling addRating + printExtraInfo
+        //does everything in addRating in the Book class
+        //and also prints the info for "exceeds expectations"
         Book.addRating(book1, book2, book3, book4);
         Book.printExtraInfo(book1, book2, book3, book4);
 
-        //print statement flood
+        //methods that print all the info from the book objects
         book1.printAllGenre();
         book2.printAllGenre();
         book3.printAllDefault();
